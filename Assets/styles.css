@@ -16,18 +16,8 @@ header h1 {
 	display: inline-flex;
 	font-size: 25px;
 }
-
-header h2 {
-	display: inline-flex;
-	
-}
-
-main {
-	background-color: orange;
-}
-
 .sec {
-	background-color: lightblue;
+	
 	display: flex;
 	margin: 10px;
 	align-items: center;
@@ -39,11 +29,24 @@ main {
 	padding: 10px;
 	margin: 0;
 	min-width: 200px;
+	font-size: 20px;
 }
-
+.sec .card{
+flex-wrap: wrap;
+border: 5px solid rgb(39, 60, 129);
+}
 .sec div {
 	padding: 10px;
 	border-left: 5px solid rgb(39, 60, 129);
+}
+footer {
+	display: flex;
+    background-color: rgb(39, 60, 129);
+    align-items: baseline;
+    color: white;
+    justify-content: space-between;
+	align-items: baseline;
+	padding: 20px;
 }
 
 @media screen and (max-width:600px) {
